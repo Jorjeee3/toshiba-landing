@@ -1,0 +1,78 @@
+.section-how-it-works {
+    background-color: #101932;
+    padding: 70px 0;
+
+    @media (min-width: 1023px) {
+        padding: 70px 0 160px;
+    }
+
+    .container {
+        .how-it-content {
+            .explanation-list {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: baseline;
+                gap: 30px;
+
+                @media (min-width: 768px) {
+                    gap: 68px;
+                }
+
+                .explanation-item {
+                    background-color: #384D70;
+                    border-radius: 20px;
+                    padding: 20px 24px 40px;
+                    
+
+                    @media (min-width: 768px) {
+                        padding: 30px 40px 40px;
+                        max-width: 492px;
+                        flex: 1 1 30%;
+                    }
+
+                    .explanation-title {
+                        font-weight: 600;
+                        font-size: 30px;
+                        line-height: 36px;
+                        color: #FFFFFF;
+                        margin-bottom: 10px;
+
+                        @media (min-width: 768px) {
+                            font-size: 32px;
+                            line-height: 38px;
+                        }
+                    }
+
+                    .explanation-subtitle {
+                        display: inline-block;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 18px;
+                        color: #FFFFFF;
+                        opacity: 0.3;
+                        margin-bottom: 15px;
+
+                        @media (min-width: 768px) {
+                            font-size: 20px;
+                            line-height: 24px;
+                            margin-bottom: 30px;
+                        }
+                    }
+
+                    .explanation-text {
+                        font-weight: 500;
+                        font-size: 19px;
+                        line-height: 23px;
+                        color: rgba(255, 255, 255, 0.7);
+
+                        @media (min-width: 768px) {
+                            font-size: 25px;
+                            line-height: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

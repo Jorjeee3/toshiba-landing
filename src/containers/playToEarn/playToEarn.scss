@@ -1,0 +1,133 @@
+.section-play-to-earn {
+    background-color: #101932;
+    padding: 70px 0;
+
+    @media (min-width: 1023px) {
+        padding: 50px 0 175px;
+    }
+
+    .container {
+        .play-content {
+            text-align: center;
+
+            .play-subtitle {
+                display: inline-block;
+                font-weight: 400;
+                font-size: 21px;
+                line-height: 42px;      
+                color: #FFFFFF;
+                opacity: 0.5;
+                margin-bottom: 50px;
+
+                @media (min-width: 768px) {
+                    font-size: 25px;
+                    line-height: 42px;   
+                }
+            }
+
+            .play-list { 
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                gap: 30px;
+
+                .play-item {
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 30px;
+                    padding: 30px 16px;
+                    border-radius: 30px;
+                    width: 100%;
+
+                    @media (min-width: 800px) {
+                        width: 48%;
+                        padding: 30px 36px;
+                    }
+
+                    @media (min-width: 1624px) {
+                        align-items: center;
+                        flex-direction: row;
+                    }
+
+                    &:nth-child(1) {
+                        width: 100%;
+                        gap: 40px;
+                        padding: 20px 20px;
+
+                        @media (min-width: 800px) {
+                            width: 100%;
+                            padding: 36px 50px;
+                        }
+
+                        .play-image-wrapper {
+                            max-width: 649px;
+                        }
+
+                        .play-text-wrapper {
+                            .play-item-text {
+                                font-weight: 400;
+                                font-size: 20px;
+                                line-height: 26px;
+                                color: rgba(255, 255, 255, 0.6);
+
+                                @media (min-width: 768px) {
+                                    font-size: 24px;
+                                    line-height: 29px;
+                                }
+                            }
+                        }
+                    }
+
+                    .play-image-wrapper {
+                        max-width: 160px;
+                        width: 100%;
+
+                        .play-image {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: contain;
+                        }
+                    }
+
+                    .play-text-wrapper {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+
+                        .play-item-title {
+                            font-weight: 700;
+                            font-size: 25px;
+                            line-height: 30px;
+                            color: #FFFFFF;
+                            text-align: center;
+
+                            @media (min-width: 748px) {
+                                font-size: 30px;
+                                line-height: 36px;
+                            }
+
+                            @media (min-width: 1624px) {
+                                text-align: left;
+                            }
+                        }
+
+                        .play-item-text {
+                            text-align: left;
+                            font-weight: 400;
+                            font-size: 22px;
+                            line-height: 28px;
+                            color: #FFFFFF;
+                            opacity: 0.8;
+
+                            @media (min-width: 748px) {
+                                font-size: 28px;
+                                line-height: 33px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

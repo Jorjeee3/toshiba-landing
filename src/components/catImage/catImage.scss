@@ -1,0 +1,25 @@
+.cat-image-wrapper-desktop,
+.cat-image-wrapper-mobile {
+    .cat-image {
+        display: inline-block;
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.cat-image-wrapper-desktop {
+    display: none;
+
+    @media (min-width: 600px) {
+        display: block;
+    }
+}
+
+.cat-image-wrapper-mobile {
+    display: none;
+
+    @media (max-width: 600px) {
+        display: block;
+    }
+}

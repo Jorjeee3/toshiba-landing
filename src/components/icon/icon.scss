@@ -1,0 +1,70 @@
+.icon-background {
+
+    &.circle {
+        width: 46px;
+        height: 46px;
+        border-radius: 50%;
+
+        @media (min-width: 768px) {
+            width: 70px;
+            height: 70px;
+        }
+
+        .icon-circle {
+            width: 23px;
+            height: 23px;
+
+            @media (min-width: 768px) {
+                width: 35px;
+                height: 35px;
+            }
+        }
+
+        .icon-square {
+            width: 23px;
+            height: 23px;
+
+            @media (min-width: 768px) {
+                width: 35px;
+                height: 35px;
+            }
+        }
+    }
+
+    &.square {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 17px 17px 37px;
+        border-radius: 10px;
+        width: 46px;
+        height: 46px;
+
+        @media (min-width: 768px) {
+            width: 70px;
+            height: 70px;
+            border-radius: 20px;
+            margin: 25px 25px 55px;
+        }
+
+        .icon-circle {
+            width: 23px;
+            height: 23px;
+
+            @media (min-width: 768px) {
+                width: 35px;
+                height: 35px;
+            }
+        }
+
+        .icon-square {
+            width: 23px;
+            height: 23px;
+
+            @media (min-width: 768px) {
+                width: 35px;
+                height: 35px;
+            }
+        }
+    }
+}

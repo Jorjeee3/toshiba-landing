@@ -1,0 +1,11 @@
+.progress-ring {
+    // opacity: 0;
+    transition: all 0s ease;
+    transform: translate(0, 2px);
+    z-index: 0;
+
+    &.active {
+        transition: all 3s ease;
+        // opacity: 1;
+    }
+}

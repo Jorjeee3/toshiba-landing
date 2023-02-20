@@ -1,0 +1,16 @@
+.secondary-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+
+    @media (min-width: 768px) {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    @media (min-width: 1023px) {
+        font-size: 50px;
+        line-height: 60px;
+    }
+}

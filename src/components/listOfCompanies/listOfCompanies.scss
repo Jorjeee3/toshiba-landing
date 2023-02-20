@@ -1,0 +1,52 @@
+.companies-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    // gap: 10px;
+
+    &.large {
+        gap: 20px;
+
+        .company-item {
+            height: 50px;
+
+            @media (min-width: 1024px) {
+                height: 80px;
+            }
+        }
+    }
+
+    &.small {
+        gap: 10px;
+
+        .company-item {
+            height: 32px;
+
+            @media (min-width: 1024px) {
+                height: 50px;
+            }
+        }
+    }
+
+    .company-item {
+        border-radius: 50px;
+        // height: 30px;
+        position: relative;
+        opacity: 0.5;
+        transition: opacity 0.3s ease-in-out;
+
+        .company-link {
+            width: 100%;
+
+            .company-logo {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}

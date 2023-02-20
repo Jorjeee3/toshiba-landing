@@ -1,0 +1,62 @@
+.button {
+    cursor: pointer;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    width: 100%;
+    height: fit-content;
+
+    &.button-primary {
+        background-color: #E11D2E;
+        padding: 20px 30px;
+        min-width: 100px;
+        transition: opacity .3s ease-in-out;
+
+        .button-text {
+            opacity: 1;
+            font-weight: 700;
+            font-size: 19px;
+            line-height: 23px;
+        }
+
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+
+    &.button-secondary {
+        background-color: rgba(255, 255, 255, 0.05);
+        min-width: 280px;
+        padding: 20px 0;
+        opacity: 0.8;
+        transition: opacity .3s ease-in-out;
+
+        .button-text {
+            opacity: 0.8;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+        }
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    &.button-tertiary {
+        background-color: #AC1216;
+        padding: 0.625rem 0;
+        // max-width: 329px;
+        min-width: 170px;
+        // max-width: 100px;
+        width: 100%;
+
+        .button-text {
+            opacity: 0.8;
+        }
+    }
+}

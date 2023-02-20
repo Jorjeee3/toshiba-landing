@@ -1,0 +1,9 @@
+.section-partners {
+    background-color: #162344;
+    display: none;
+    padding: 20px 0 140px;
+
+    @media (min-width: 1023px) {
+        display: block;
+    }
+}

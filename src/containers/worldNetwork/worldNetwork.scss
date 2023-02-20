@@ -1,0 +1,97 @@
+.world-network {
+    background-color: #101932;
+    position: relative;
+    padding: 20px 0 0;
+
+        @media (min-width: 768px) {
+            padding: 80px 0;
+        }
+
+    .container {
+        .network-content {
+            position: relative;
+
+            .network-list {
+                // position: absolute;
+                // top: 20px;
+                // left: 50%;
+                // transform: translate(-50%, 0);
+            }
+            
+            .network-title-content {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: relative;
+                margin-top: 40px;
+
+                @media (min-width: 768px) {
+                    // padding: 116px 0;
+                }
+
+                .network-image {
+                    height: 100%;
+                    width: 100%;
+                    max-width: 950px;
+                }
+
+                .network-title {
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 30px;
+                    max-width: 329px;
+                    width: 100%;
+                    text-align: center;
+                    color: #FFFFFF;
+                    position: absolute;
+                    top: 4%;
+                    left: 50%;
+                    transform: translate(-50%, 0);
+                    z-index: 5;
+
+                    @media (min-width: 400px) {
+                        top: 10%;
+                    }
+
+                    @media (min-width: 839px) {
+                        // margin-top: 116px;
+                        top: 25%;
+                        font-size: 35px;
+                        line-height: 42px;
+                        max-width: 595px;
+                    }
+                }
+
+                .cat-image-wrapper {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+
+                .network-button-desktop {
+                    position: absolute;
+                    top: 65%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    display: none;
+
+                    @media (min-width: 839px) {
+                        display: block;
+                    }
+                }  
+            }
+
+            .network-button-mobile {
+                display: block;
+                margin: 0 auto;
+                width: 100%;
+                text-align: center;
+
+                @media (min-width: 839px) {
+                    display: none;
+                }
+            }
+        }
+    }
+}

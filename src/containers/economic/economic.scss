@@ -1,0 +1,138 @@
+.circle-box-wrapper {
+    top: -198px;
+    left: 82px;
+    // transform: translateX(-164px);
+
+    @media (min-width: 1024px) {
+        top: -198px;
+        left: -82px;
+    }
+
+    .circle-box {
+        left: -162px !important;
+
+        @media (min-width: 1024px) {
+            left: 0 !important;
+        }
+
+        @media (min-width: 1200px) {
+            left: 20px !important;
+        }
+    }
+
+    &:nth-child(1) {
+        .circle-box {
+            .circle-percentage {
+                top: 60%;
+                left: 62%;
+                
+                @media (min-width: 1200px) {
+                    top: 66%;
+                    left: 69%;
+                }
+            }
+        }
+    }
+
+    &:nth-child(2) {
+        .circle-box {
+            .circle-percentage {
+                top: 51%;
+                left: 69%;
+
+                @media (min-width: 1200px) {
+                    top: 53%;
+                    left: 76%;
+                }
+            }
+        }
+    }
+
+    &:nth-child(3) {
+        .circle-box {
+            .circle-percentage {
+                top: 64%;
+                left: 57%;
+
+                @media (min-width: 1200px) {
+                    top: 71%;
+                    left: 63%;
+                }
+            }
+        }
+    }
+
+    &:nth-child(4) {
+        .circle-box {
+            .circle-percentage {
+                top: 54%;
+                left: 65%;
+
+                @media (min-width: 1200px) {
+                    top: 56%;
+                    left: 74%;
+                }
+            }
+        }
+    }
+
+    &:nth-child(5) {
+        .circle-box {
+            .circle-percentage {
+                top: 56%;
+                left: 64%;
+
+                @media (min-width: 1200px) {
+                    top: 60%;
+                    left: 73%;
+                }
+            }
+        }
+    }
+
+    &:nth-child(6) {
+        .circle-box {
+            .circle-percentage {
+                top: 50%;
+                left: 67%;
+
+                @media (min-width: 1200px) {
+                    top: 53%;
+                    left: 76%;
+                }
+            }
+        }
+    }
+
+    &:nth-child(7) {
+        .circle-box {
+            .circle-percentage {
+                top: 56%;
+                left: 64%;
+
+                @media (min-width: 1200px) {
+                    top: 61%;
+                    left: 72%;
+                }
+            }
+        }
+    }
+
+    .circle-box {
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        // z-index: 2;
+
+        .circle-percentage {
+            top: 50%;
+            left: 50%;
+            
+            &.active {
+                opacity: 0.3 !important;
+            }
+        }
+    }
+}
+
